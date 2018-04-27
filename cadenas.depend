@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1524872238 source:/home/jpereyra/Documents/UTN/programacion1/main.cpp
+	<iostream>
+	<cstdlib>
+	"CSYSTEM/csystem.h"
+	"CSYSTEM/cadenas.h"
+
+1524870932 /home/jpereyra/Documents/UTN/programacion1/CSYSTEM/csystem.h
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<ctime>
+	<windows.h>
+	<unistd.h>
+
+1524872493 /home/jpereyra/Documents/UTN/programacion1/CSYSTEM/cadenas.h
+
