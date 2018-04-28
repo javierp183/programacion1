@@ -1,6 +1,6 @@
 //#############################################################################
 // ARCHIVO             : main.cpp
-// AUTOR/ES            : nombre/s de autor/es
+// AUTOR/ES            : Javier Pereyra de autor/es
 // VERSION             : 0.02 beta.
 // FECHA DE CREACION   : 27/04/2018.
 // ULTIMA ACTUALIZACION: 27/04/2018.
@@ -71,6 +71,7 @@
 //=============================================================================
 #include "CSYSTEM/csystem.h" // Libreria para multiplataforma.
 #include "CSYSTEM/cadenas.h" // Mi libreria para el TSP.
+#include "CSYSTEM/menu.h"
 //==============================================================================
 // DECLARACION DEL ESPACIO DE NOMBRES POR DEFECTO
 //------------------------------------------------------------------------------
@@ -80,36 +81,53 @@ using namespace std;
 //==============================================================================
 // FUNCION PRINCIPAL - PUNTO DE INICIO DEL PROYECTO
 //------------------------------------------------------------------------------
+
+
+
 int main()
 {
+    bool salir= false;
+    char opcion;
+    while(!salir)
+    {
+        sys::cls();                         //borro la pantalla
+        menu();
+        cin>>opcion;
+        cin.ignore();
+        switch(opcion)
+        {
+            case 'a':
+            case 'A':
+            {
 
-    //Menu principal.
-    cout<<"Opciones del Menu:"<<endl;
-    cout<<"a. strLen"<<endl;
-    cout<<"b. strCpy"<<endl;
-    cout<<"c. strCat"<<endl;
-    cout<<"d. strCmp"<<endl;
-    cout<<"e. strFind"<<endl;
-    cout<<"f. strCnt"<<endl;
-    cout<<"g. strInv"<<endl;
-    cout<<"h. strRpl"<<endl;
-    cout<<"i. strTrunc"<<endl;
-    cout<<"j. strSub"<<endl;
-    cout<<"k. strToUpper"<<endl;
-    cout<<"l. strToLower"<<endl;
-    cout<<"m. strToInt"<<endl;
-    cout<<"n. intToStr"<<endl;
-
-
-    // Opcion del menu, con un tipo de valor: caracter.
-    char op;
-
-
+            }break;
+            case 'b':
+            case 'B':
+            {
+                cout <<"Estoy restando....";
+            }break;
+            case 's':
+            case 'S':
+            {
+                cout <<"Salistes del menu, presione enter nuevamente.."<<endl;
+                salir=true;
+            }break;
+            default:
+            {
+                cout <<"Opcion incorrecta!!!";
+            }break;
+        }
+        cin.get();
+    }
     //--------------------------------------------------------------------------
     // FIN DE LA FUNCION main() SIN ERRORES.
     //--------------------------------------------------------------------------
     return 0;
+
 }
+
+
+
 
 //=============================================================================
 //                            FIN DE ARCHIVO

@@ -1,6 +1,6 @@
 //#############################################################################
 // ARCHIVO             : cadenas.h
-// AUTOR/ES            : nombre/s de autor/es
+// AUTOR/ES            : Javier Pereyra de autor/es
 // VERSION             : 0.02 beta.
 // FECHA DE CREACION   : 27/04/2018.
 // ULTIMA ACTUALIZACION: 27/04/2018.
@@ -34,6 +34,8 @@ int strLen(char *c){
     }
 
 }
+
+
 
 
 

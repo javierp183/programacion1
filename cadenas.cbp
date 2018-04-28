@@ -43,7 +43,13 @@ AYUDANTE : Fernando Calabuig.
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="CSYSTEM/cadenas.h" />
 		<Unit filename="CSYSTEM/csystem.h" />
+		<Unit filename="CSYSTEM/menu.h">
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
+		<Unit filename="CSYSTEM/pruebas.h" />
 		<Unit filename="LICENCIA GPL/Licencia GPL (traduccion NO OFICIAL - castellano argentina).txt" />
 		<Unit filename="LICENCIA GPL/Licencia GPL original (ingles).txt" />
 		<Unit filename="main.cpp" />

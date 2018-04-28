@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1524872238 source:/home/jpereyra/Documents/UTN/programacion1/main.cpp
+1524875674 source:/home/jpereyra/Documents/UTN/programacion1/main.cpp
 	<iostream>
 	<cstdlib>
 	"CSYSTEM/csystem.h"
 	"CSYSTEM/cadenas.h"
+	"CSYSTEM/menu.h"
 
 1524870932 /home/jpereyra/Documents/UTN/programacion1/CSYSTEM/csystem.h
 	<iostream>
@@ -13,5 +14,11 @@
 	<windows.h>
 	<unistd.h>
 
-1524873014 /home/jpereyra/Documents/UTN/programacion1/CSYSTEM/cadenas.h
+1524875576 /home/jpereyra/Documents/UTN/programacion1/CSYSTEM/cadenas.h
+
+1524876010 /home/jpereyra/Documents/UTN/programacion1/CSYSTEM/menu.h
+
+1524875286 source:/home/jpereyra/Documents/UTN/programacion1/CSYSTEM/menu.h
+	<iostream>
+	<cstdlib>
 
