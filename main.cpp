@@ -83,6 +83,26 @@ using namespace std;
 int main()
 {
 
+    //Menu principal.
+    cout<<"Opciones del Menu:"<<endl;
+    cout<<"a. strLen"<<endl;
+    cout<<"b. strCpy"<<endl;
+    cout<<"c. strCat"<<endl;
+    cout<<"d. strCmp"<<endl;
+    cout<<"e. strFind"<<endl;
+    cout<<"f. strCnt"<<endl;
+    cout<<"g. strInv"<<endl;
+    cout<<"h. strRpl"<<endl;
+    cout<<"i. strTrunc"<<endl;
+    cout<<"j. strSub"<<endl;
+    cout<<"k. strToUpper"<<endl;
+    cout<<"l. strToLower"<<endl;
+    cout<<"m. strToInt"<<endl;
+    cout<<"n. intToStr"<<endl;
+
+
+    // Opcion del menu, con un tipo de valor: caracter.
+    char op;
 
 
     //--------------------------------------------------------------------------
