@@ -96,26 +96,83 @@ int main()
         cin.ignore();
         switch(opcion)
         {
-            case 'a':
-            case 'A':
-            {
+        case 'a':
+        case 'A':
+        {
 
-            }break;
-            case 'b':
-            case 'B':
-            {
-                cout <<"Estoy restando....";
-            }break;
-            case 's':
-            case 'S':
-            {
-                cout <<"Salistes del menu, presione enter nuevamente.."<<endl;
-                salir=true;
-            }break;
-            default:
-            {
-                cout <<"Opcion incorrecta!!!";
-            }break;
+        } break;
+        case 'b':
+        case 'B':
+        {
+
+        } break;
+        case 'c':
+        case 'C':
+        {
+
+        } break;
+        case 'd':
+        case 'D':
+        {
+
+        } break;
+        case 'e':
+        case 'E':
+        {
+
+        } break;
+        case 'f':
+        case 'F':
+        {
+
+        } break;
+        case 'g':
+        case 'G':
+        {
+
+        } break;
+        case 'h':
+        case 'H':
+        {
+
+        } break;
+        case 'i':
+        case 'I':
+        {
+
+        } break;
+        case 'j':
+        case 'J':
+        {
+
+        } break;
+        case 'k':
+        case 'K':
+        {
+
+        } break;
+        case 'l':
+        case 'L':
+        {
+
+        } break;
+        case 'm':
+        case 'M':
+        {
+
+        } break;
+        case 's':
+        case 'S':
+        {
+            cout <<"Salistes del menu, presione enter nuevamente.."<<endl;
+            salir=true;
+        }
+        break;
+        default:
+        {
+            cout <<"Opcion incorrecta!!!";
+        }
+        break;
         }
         cin.get();
     }
